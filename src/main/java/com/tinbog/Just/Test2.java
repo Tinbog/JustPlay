@@ -10,6 +10,7 @@ public class Test2<List> extends Test1<List> implements InterfaceTest<Integer>{
     }
     public void test(String i) {
         System.out.println("test");
+        System.out.println("test1");
     }
 
 
