@@ -3,7 +3,7 @@ package com.tinbog.Just;
 import java.util.HashMap;
 import java.util.List;
 
-public class Test2<T1> extends Test1<T1> implements InterfaceTest<Integer>{
+public class Test2<List> extends Test1<List> implements InterfaceTest<Integer>{
     @Override
     public void test(int i) {
         super.test(i);
