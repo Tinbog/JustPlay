@@ -9,7 +9,7 @@ public class Test2<List> extends Test1<List> implements InterfaceTest<Integer>{
         super.test(i);
     }
     public void test(String i) {
-
+        System.out.println("test");
     }
 
 
